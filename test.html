@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f8f8f8;
+        }
+        .business-card {
+            background: linear-gradient(135deg, #fff, #e6e6e6);
+            border-radius: 12px;
+            padding: 25px;
+            width: 320px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .business-card:hover {
+            transform: scale(1.05);
+        }
+        .business-card img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #fff;
+        }
+        .business-card h2 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #333;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .business-card p {
+            margin: 8px 0;
+            color: #777;
+            font-size: 1em;
+            font-weight: 500;
+        }
+        .business-card a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #2C3E50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .business-card a:hover {
+            background-color: #34495E;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+        }
+        ul li {
+            list-style: none;
+        }
+        ul li a {
+            display: block;
+            position: relative;
+            width: 55px;
+            height: 55px;
+            line-height: 55px;
+            font-size: 26px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.4s, transform 0.4s;
+        }
+        ul li a:hover {
+            transform: translateY(-5px);
+        }
+
+        .facebook {
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/023/986/603/small/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png');
+        }
+        .tiktok {
+            background-image: url('https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png');
+        }
+        .instagram {
+            background-image: url('https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3497-thumb.png');
+        }
+        .linkedin {
+            background-image: url('https://cdn-icons-png.flaticon.com/512/61/61109.png');
+        }
+
+        .facebook:hover {
+            background-color: #3b5998;
+        }
+        .tiktok:hover {
+            background-color: #1da1f2;
+        }
+        .instagram:hover {
+            background-color: #c32aa3;
+        }
+        .linkedin:hover {
+            background-color: #0077b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="business-card">
+        <img src="https://i.postimg.cc/wj2bs7Y2/temp-Image-WEPy-NV.avif" alt="Wendy Gamez">
+        <h2>Wendy Gamez</h2>
+        <p>Broker Associate</p>
+        <p>Keller Williams City Views</p>
+        <p>Email: wg@wendygproperties.com</p>
+        <p>Phone: (917) 504-3347</p>
+        <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3AWendy%20Gamez%0AORG%3AKeller%20Williams%20City%20Views%0ATITLE%3ABroker%20Associate%0AEMAIL%3Awg%40wendygproperties.com%0ATEL%3BWORK%3A%2B19175043347%0AEND%3AVCARD" download="Wendy_Gamez.vcf">Add to Contact</a>
+    </div>
+
+    <ul>
+        <li>
+            <a class="facebook" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.facebook.com_WG-2DProperties-2D106314438350841_&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lsAXmp93D_eQTb1YV7v-9VLOGs4VGUfqoh9SbUny8OU&m=mqZx_KuCjt8B3VR9R84fJhgVYCAsSQp574avggpB6VUeIc8g8G5jTcsBjUnrCwa9&s=a-_7uVw37QPNy37J2PDU0B5nt_xJxKtFAHcV96cRmu8&e="></a>
+        </li>
+        <li>
+            <a class="tiktok" href="https://urldefense.proofpoint.com/v2/url?u=https-3A__www.tiktok.com_-40wgproperties&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lsAXmp93D_eQTb1YV7v-9VLOGs4VGUfqoh9SbUny8OU&m=mqZx_KuCjt8B3VR9R84fJhgVYCAsSQp574avggpB6VUeIc8g8G5jTcsBjUnrCwa9&s=eVbfPBOyVLJiiDAnMQMznO4bt-ZfMz78m06YuG46O40&e="></a>
+        </li>
+        <li>
+            <a class="instagram" href="https://urldefense.proofpoint.com/v2/url?u=http-3A__instagram.com_wendyg-5Fre-3Futm-5Fmedium-3Dcopy-5Flink&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lsAXmp93D_eQTb1YV7v-9VLOGs4VGUfqoh9SbUny8OU&m=mqZx_KuCjt8B3VR9R84fJhgVYCAsSQp574avggpB6VUeIc8g8G5jTcsBjUnrCwa9&s=Wuvt1NmG_oOkIayGToN-lviQDApjJMq2Xzj9mX_VMnw&e="></a>
+        </li>
+        <li>
+            <a class="linkedin" href="https://urldefense.proofpoint.com/v2/url?u=http-3A__linkedin.com_in_wendys83&d=DwMFaQ&c=euGZstcaTDllvimEN8b7jXrwqOf-v5A_CdpgnVfiiMM&r=lsAXmp93D_eQTb1YV7v-9VLOGs4VGUfqoh9SbUny8OU&m=mqZx_KuCjt8B3VR9R84fJhgVYCAsSQp574avggpB6VUeIc8g8G5jTcsBjUnrCwa9&s=tz-1E8HmrUzKGZNwb0GJX6l6iwXOhvuJM_mBAT9oYwM&e="></a>
+        </li>
+    </ul>
+</body>
+</html>
